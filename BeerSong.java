@@ -15,7 +15,7 @@ public class BeerSong {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        Ninety_Nine_Bottles_of_Beer();   
     }
     public static void Ninety_Nine_Bottles_of_Beer() {
         int bottles=99;
