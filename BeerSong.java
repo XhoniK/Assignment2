@@ -18,6 +18,16 @@ public class BeerSong {
         
     }
     public static void Ninety_Nine_Bottles_of_Beer() {
-      
+        int bottles=99;
+        int nb;
+        while (bottles>1){
+            nb= bottles -1;       
+            System.out.println(bottles+ " bottles of beer on the wall," + bottles +" bottles of beer");
+            System.out.println("take one down pass it around,"+ nb + " bottles of beer on the wall");
+            bottles--;
+        } 
+        bottles =1;
+        System.out.println(bottles+ " bottle of beer on the wall," + bottles +" bottle of beer");
+        System.out.println("take one down pass it around,no more bottles of beer on the wall");                      
     }
 }
